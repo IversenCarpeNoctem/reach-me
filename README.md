@@ -5,7 +5,7 @@
 Reach Me is a simple, yet powerful plugin that allows you to display your contact information anywhere on your website.
 
 ## How to use
-
+To display anywhere you want in your template:
 
 ```
 <?php echo get_option('reme_behance'); ?>

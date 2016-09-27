@@ -21,17 +21,18 @@ function reme_links_admin() {
 	if (!empty($_POST) && ($_POST[$hidden_field_name] == 'reme')) {
 
 		// Social links
-		$behance    = !empty($_POST['behance']) ? trim(strip_tags($_POST['behance'])) : '';
-		$facebook   = !empty($_POST['facebook']) ? trim(strip_tags($_POST['facebook'])) : '';
-		$github 	  = !empty($_POST['github']) ? trim(strip_tags($_POST['github'])) : '';
-		$google 	  = !empty($_POST['google']) ? trim(strip_tags($_POST['google'])) : '';
-		$instagram  = !empty($_POST['instagram']) ? trim(strip_tags($_POST['instagram'])) : '';
-		$linkedin   = !empty($_POST['linkedin']) ? trim(strip_tags($_POST['linkedin'])) : '';
-		$reddit     = !empty($_POST['reddit']) ? trim(strip_tags($_POST['reddit'])) : '';
-		$snapchat   = !empty($_POST['snapchat']) ? trim(strip_tags($_POST['snapchat'])) : '';
-		$twitter    = !empty($_POST['twitter']) ? trim(strip_tags($_POST['twitter'])) : '';
-    $vk         = !empty($_POST['vk']) ? trim(strip_tags($_POST['vk'])) : '';
-		$youtube 	  = !empty($_POST['youtube']) ? trim(strip_tags($_POST['youtube'])) : '';
+		$behance     = !empty($_POST['behance']) ? trim(strip_tags($_POST['behance'])) : '';
+		$facebook    = !empty($_POST['facebook']) ? trim(strip_tags($_POST['facebook'])) : '';
+		$github 	   = !empty($_POST['github']) ? trim(strip_tags($_POST['github'])) : '';
+		$google 	   = !empty($_POST['google']) ? trim(strip_tags($_POST['google'])) : '';
+		$instagram   = !empty($_POST['instagram']) ? trim(strip_tags($_POST['instagram'])) : '';
+		$linkedin    = !empty($_POST['linkedin']) ? trim(strip_tags($_POST['linkedin'])) : '';
+		$reddit      = !empty($_POST['reddit']) ? trim(strip_tags($_POST['reddit'])) : '';
+		$snapchat    = !empty($_POST['snapchat']) ? trim(strip_tags($_POST['snapchat'])) : '';
+		$tripadvisor = !empty($_POST['tripadvisor']) ? trim(strip_tags($_POST['tripadvisor'])) : '';
+		$twitter     = !empty($_POST['twitter']) ? trim(strip_tags($_POST['twitter'])) : '';
+    $vk          = !empty($_POST['vk']) ? trim(strip_tags($_POST['vk'])) : '';
+		$youtube 	   = !empty($_POST['youtube']) ? trim(strip_tags($_POST['youtube'])) : '';
 
 		// Contact info
 		$email 		  = !empty($_POST['email']) ? trim(strip_tags($_POST['email'])) : '';
@@ -43,6 +44,7 @@ function reme_links_admin() {
 		// Address
 		$country 	  = !empty($_POST['country']) ? trim(strip_tags($_POST['country'])) : '';
 		$state 		  = !empty($_POST['state']) ? trim(strip_tags($_POST['state'])) : '';
+		$county 		= !empty($_POST['county']) ? trim(strip_tags($_POST['county'])) : '';
 		$city 		  = !empty($_POST['city']) ? trim(strip_tags($_POST['city'])) : '';
 		$street 	  = !empty($_POST['street']) ? trim(strip_tags($_POST['street'])) : '';
 		$zip 		    = !empty($_POST['zip']) ? trim(strip_tags($_POST['zip'])) : '';
@@ -56,6 +58,7 @@ function reme_links_admin() {
 		update_option('reme_linkedin', $linkedin);
 		update_option('reme_reddit', $reddit);
 		update_option('reme_snapchat', $snapchat);
+		update_option('reme_tripadvisor',	$tripadvisor);
 		update_option('reme_twitter',	$twitter);
     update_option('reme_vk', $vk);
 		update_option('reme_youtube', $youtube);
@@ -70,6 +73,7 @@ function reme_links_admin() {
 		// Address
 		update_option('reme_country', $country);
 		update_option('reme_state', $state);
+		update_option('reme_county', $county);
 		update_option('reme_city', $city); 
 		update_option('reme_street', $street);
 		update_option('reme_zip', $zip); 
@@ -140,6 +144,12 @@ function reme_links_admin() {
 						</td>
 					</tr>
 					<tr>
+						<th><label for="tripadvisor"><i class="fa fa-tripadvisor" aria-hidden="true"></i> | <?php _e('Tripadvisor', 'reach-me'); ?></label></th>
+						<td>
+							<input id="tripadvisor" name="tripadvisor" class="regular-text" type="text" value="<?php echo get_option('reme_tripadvisor'); ?>" />
+						</td>
+					</tr>
+					<tr>
 						<th><label for="twitter"><i class="fa fa-twitter" aria-hidden="true"></i> | <?php _e('Twitter', 'reach-me'); ?></label></th>
 						<td>
 							<input id="twitter" name="twitter" class="regular-text" type="text" value="<?php echo get_option('reme_twitter'); ?>" />
@@ -196,6 +206,10 @@ function reme_links_admin() {
 					<tr>
 						<th><label for="state"><i class="fa fa-globe" aria-hidden="true"></i> | <?php _e('State', 'reach-me'); ?></label></th>
 						<td><input id="state" name="state" class="regular-text" type="text" value="<?php echo get_option('reme_state'); ?>"></td>
+					</tr>
+					<tr>
+						<th><label for="county"><i class="fa fa-globe" aria-hidden="true"></i> | <?php _e('County', 'reach-me'); ?></label></th>
+						<td><input id="county" name="county" class="regular-text" type="text" value="<?php echo get_option('reme_county'); ?>"></td>
 					</tr>
 					<tr>
 						<th><label for="city"><i class="fa fa-globe" aria-hidden="true"></i> | <?php _e('City', 'reach-me'); ?></label></th>

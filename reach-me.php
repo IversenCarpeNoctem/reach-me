@@ -2,12 +2,12 @@
 
 /*
  * Plugin Name: Reach Me
- * Plugin URI: https://github.com/leanderiversen/reach-me
+ * Plugin URI: https://github.com/IversenCarpeNoctem/reach-me
  * Description: Reach Me is a simple, yet powerful plugin that allows you to display your contact information anywhere on your website.
  * Author: Iversen - Carpe Noctem
- * Version: 1.0.3
- * Author URI: https://github.com/leanderiversen
- * GitHub Plugin URI: leanderiversen/reach-me
+ * Version: 1.0.5
+ * Author URI: https://github.com/IversenCarpeNoctem
+ * GitHub Plugin URI: IversenCarpeNoctem/reach-me
  * Domain Path: /languages
  * Text Domain: reach-me
  * License: GPLv2 or later
@@ -20,7 +20,7 @@ if ( !defined('ABSPATH') ) {
 }
 
 // Define plugin version
-define( 'REME_VERSION', '1.0.3' );
+define( 'REME_VERSION', '1.0.5' );
 // Pathinfo
 $pathinfo = pathinfo( dirname( plugin_basename( __FILE__ ) ) );
 // Define plugin name

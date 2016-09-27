@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Reach Me\n"
-"POT-Creation-Date: 2016-08-14 03:57+0200\n"
-"PO-Revision-Date: 2016-08-14 03:57+0200\n"
+"POT-Creation-Date: 2016-09-24 01:51+0100\n"
+"PO-Revision-Date: 2016-09-24 01:51+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 1.8.9\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: reach-me.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #. Plugin Name of the plugin/theme
 #: inc/functions/reme_add_menu_pages.php:10 inc/pages/how-to-use.php:12
-#: inc/pages/settings.php:87
+#: inc/pages/settings.php:91
 msgid "Reach Me"
 msgstr "Reach Me"
 
@@ -42,11 +42,11 @@ msgstr "etc"
 msgid "List of options:"
 msgstr "List of options:"
 
-#: inc/pages/how-to-use.php:43
+#: inc/pages/how-to-use.php:44
 msgid "Do you need support?"
 msgstr "Do you need support?"
 
-#: inc/pages/how-to-use.php:44
+#: inc/pages/how-to-use.php:45
 msgid ""
 "If you are in need of support, or if you want to make a suggestion, please "
 "visit the plugin's"
@@ -54,129 +54,137 @@ msgstr ""
 "If you are in need of support, or if you want to make a suggestion, please "
 "visit the plugin's"
 
-#: inc/pages/how-to-use.php:44
+#: inc/pages/how-to-use.php:45
 msgid "Wordpress page"
 msgstr "Wordpress page"
 
-#: inc/pages/settings.php:78
+#: inc/pages/settings.php:82
 msgid "Information successfully updated."
 msgstr "Information successfully updated."
 
-#: inc/pages/settings.php:89
+#: inc/pages/settings.php:93
 msgid "Links to social media"
 msgstr "Links to social media"
 
-#: inc/pages/settings.php:91
+#: inc/pages/settings.php:95
 msgid "This is where you want to enter links to your social platforms."
 msgstr "This is where you want to enter links to your social platforms."
 
-#: inc/pages/settings.php:95
+#: inc/pages/settings.php:99
 msgid "Behance"
 msgstr "Behance"
 
-#: inc/pages/settings.php:101
+#: inc/pages/settings.php:105
 msgid "Facebook"
 msgstr "Facebook"
 
-#: inc/pages/settings.php:107
+#: inc/pages/settings.php:111
 msgid "Github"
 msgstr "Github"
 
-#: inc/pages/settings.php:113
+#: inc/pages/settings.php:117
 msgid "Google+"
 msgstr "Google+"
 
-#: inc/pages/settings.php:119
+#: inc/pages/settings.php:123
 msgid "Instagram"
 msgstr "Instagram"
 
-#: inc/pages/settings.php:125
+#: inc/pages/settings.php:129
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: inc/pages/settings.php:131
+#: inc/pages/settings.php:135
 msgid "Reddit"
 msgstr "Reddit"
 
-#: inc/pages/settings.php:137
+#: inc/pages/settings.php:141
 msgid "Snapchat"
 msgstr "Snapchat"
 
-#: inc/pages/settings.php:143
+#: inc/pages/settings.php:147
+msgid "Tripadvisor"
+msgstr "Tripadvisor"
+
+#: inc/pages/settings.php:153
 msgid "Twitter"
 msgstr "Twitter"
 
-#: inc/pages/settings.php:149
+#: inc/pages/settings.php:159
 msgid "VK"
 msgstr "VK"
 
-#: inc/pages/settings.php:155
+#: inc/pages/settings.php:165
 msgid "YouTube"
 msgstr "YouTube"
 
-#: inc/pages/settings.php:162
+#: inc/pages/settings.php:172
 msgid "Ways to get in touch"
 msgstr "Ways to get in touch"
 
-#: inc/pages/settings.php:163
+#: inc/pages/settings.php:173
 msgid "This is where you want to enter your contact information."
 msgstr "This is where you want to enter your contact information."
 
-#: inc/pages/settings.php:167
+#: inc/pages/settings.php:177
 msgid "E-mail"
 msgstr "E-mail"
 
-#: inc/pages/settings.php:171
+#: inc/pages/settings.php:181
 msgid "FAX"
 msgstr "FAX"
 
-#: inc/pages/settings.php:175
+#: inc/pages/settings.php:185
 msgid "Mobile"
 msgstr "Mobile"
 
-#: inc/pages/settings.php:179
+#: inc/pages/settings.php:189
 msgid "Phone"
 msgstr "Phone"
 
-#: inc/pages/settings.php:183
+#: inc/pages/settings.php:193
 msgid "Skype"
 msgstr "Skype"
 
-#: inc/pages/settings.php:188
+#: inc/pages/settings.php:198
 msgid "Where to meet"
 msgstr "Where to meet"
 
-#: inc/pages/settings.php:189
+#: inc/pages/settings.php:199
 msgid "This is where you want to enter where you are physically located."
 msgstr "This is where you want to enter where you are physically located."
 
-#: inc/pages/settings.php:193
+#: inc/pages/settings.php:203
 msgid "Country"
 msgstr "Country"
 
-#: inc/pages/settings.php:197
+#: inc/pages/settings.php:207
 msgid "State"
 msgstr "State"
 
-#: inc/pages/settings.php:201
+#: inc/pages/settings.php:211
+msgid "County"
+msgstr "County"
+
+#: inc/pages/settings.php:215
 msgid "City"
 msgstr "City"
 
-#: inc/pages/settings.php:205
+#: inc/pages/settings.php:219
 msgid "Street"
 msgstr "Street"
 
-#: inc/pages/settings.php:209
+#: inc/pages/settings.php:223
 msgid "Zip code"
 msgstr "Zip code"
 
-#: inc/pages/settings.php:216
+#: inc/pages/settings.php:230
 msgid "Update info"
 msgstr "Update info"
 
 #. Plugin URI of the plugin/theme
-msgid "https://github.com/leanderiversen/reach-me"
-msgstr "https://github.com/leanderiversen/reach-me"
+msgid "https://github.com/IversenCarpeNoctem/reach-me"
+msgstr "https://github.com/IversenCarpeNoctem/reach-me"
 
 #. Description of the plugin/theme
 msgid ""
@@ -191,8 +199,14 @@ msgid "Iversen - Carpe Noctem"
 msgstr "Iversen - Carpe Noctem"
 
 #. Author URI of the plugin/theme
-msgid "https://github.com/leanderiversen"
-msgstr "https://github.com/leanderiversen"
+msgid "https://github.com/IversenCarpeNoctem"
+msgstr "https://github.com/IversenCarpeNoctem"
+
+#~ msgid "https://github.com/leanderiversen/reach-me"
+#~ msgstr "https://github.com/leanderiversen/reach-me"
+
+#~ msgid "https://github.com/leanderiversen"
+#~ msgstr "https://github.com/leanderiversen"
 
 #~ msgid "Settings"
 #~ msgstr "Settings"

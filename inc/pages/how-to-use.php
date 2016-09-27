@@ -14,7 +14,6 @@ function reme_how_to_use() {
 		<div class="tool-box">
 			<p><?php _e('If you want to display the links on your website, use', 'reach-me'); ?> <code><?php echo htmlspecialchars("<?php echo (get_option('reme_facebook')); ?>"); ?></code> <?php _e('etc', 'reach-me'); ?>.</p>
 			<p><?php _e('List of options:', 'reach-me'); ?></p>
-
 			<pre>
         reme_behance
        	reme_facebook
@@ -24,6 +23,7 @@ function reme_how_to_use() {
        	reme_linkedin
         reme_reddit
        	reme_snapchat
+        reme_tripadvisor
        	reme_twitter
         reme_vk
        	reme_youtube
@@ -34,6 +34,7 @@ function reme_how_to_use() {
         reme_skype
         reme_country
         reme_state
+        reme_county
         reme_city
         reme_street
         reme_zip

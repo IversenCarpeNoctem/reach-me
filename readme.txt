@@ -2,8 +2,9 @@
 Contributors: leanderiversen
 Tags: contact, info, social, links
 Requires at least: Wordpress 3.5
-Tested up to: 4.6
-Stable tag: 1.0.3License: GPLv2 or later
+Tested up to: 4.6.1
+Stable tag: 1.0.5
+License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Reach Me is a simple, yet powerful plugin that allows you to display your contact information anywhere on your website.
@@ -35,16 +36,22 @@ To display anywhere you want in your template:
 <?php echo get_option('reme_linkedin'); ?>
 <?php echo get_option('reme_reddit'); ?>
 <?php echo get_option('reme_snapchat'); ?>
+<?php echo get_option('reme_tripadvisor'); ?>
 <?php echo get_option('reme_twitter'); ?>
 <?php echo get_option('reme_vk'); ?>
 <?php echo get_option('reme_youtube'); ?>
+`
+`
 <?php echo get_option('reme_email'); ?>
 <?php echo get_option('reme_fax'); ?>
 <?php echo get_option('reme_mobile'); ?>
 <?php echo get_option('reme_phone'); ?>
 <?php echo get_option('reme_skype'); ?>
+`
+`
 <?php echo get_option('reme_country'); ?>
-<?php echo get_option('reme_state'); ?>`
+<?php echo get_option('reme_state'); ?>
+<?php echo get_option('reme_county'); ?>
 <?php echo get_option('reme_city'); ?>
 <?php echo get_option('reme_street'); ?>
 <?php echo get_option('reme_zip'); ?>
@@ -59,6 +66,16 @@ To display anywhere you want in your template:
 
 
 == Changelog ==
+
+= 1.0.5 =
+* Updated translations
+
+= 1.0.4 =
+* Added new network:
+    * Tripadvisor
+
+* Added new hierarchy of address:
+    * County
 
 = 1.0.3 =
 * Enhancements:

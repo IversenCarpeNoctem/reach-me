@@ -16,6 +16,7 @@ To display anywhere you want in your template:
 <?php echo get_option('reme_linkedin'); ?>
 <?php echo get_option('reme_reddit'); ?>
 <?php echo get_option('reme_snapchat'); ?>
+<?php echo get_option('reme_tripadvisor'); ?>
 <?php echo get_option('reme_twitter'); ?>
 <?php echo get_option('reme_vk'); ?>
 <?php echo get_option('reme_youtube'); ?>
@@ -27,7 +28,8 @@ To display anywhere you want in your template:
 <?php echo get_option('reme_skype'); ?>
 
 <?php echo get_option('reme_country'); ?>
-<?php echo get_option('reme_state'); ?>`
+<?php echo get_option('reme_state'); ?>
+<?php echo get_option('reme_county'); ?>
 <?php echo get_option('reme_city'); ?>
 <?php echo get_option('reme_street'); ?>
 <?php echo get_option('reme_zip'); ?>

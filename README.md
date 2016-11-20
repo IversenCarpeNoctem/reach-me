@@ -35,7 +35,7 @@ To display anywhere you want in your template:
 <?php echo get_option('reme_zip'); ?>
 ```
 
-## Supported Languages
+## Supported languages
 - English
 - Norwegian
 - Swedish

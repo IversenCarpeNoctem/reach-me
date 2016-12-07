@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Reach Me\n"
-"POT-Creation-Date: 2016-09-24 01:49+0100\n"
-"PO-Revision-Date: 2016-09-24 01:50+0100\n"
+"POT-Creation-Date: 2016-12-07 20:02+0000\n"
+"PO-Revision-Date: 2016-12-07 20:02+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: nb_NO\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 1.8.11\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: reach-me.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -28,7 +28,7 @@ msgstr "Reach Me"
 
 #: inc/functions/reme_add_menu_pages.php:11 inc/pages/how-to-use.php:13
 msgid "How to use"
-msgstr "Hvordan bruke"
+msgstr "Bruksanvisning"
 
 #: inc/pages/how-to-use.php:15
 msgid "If you want to display the links on your website, use"
@@ -147,7 +147,7 @@ msgstr "Skype"
 
 #: inc/pages/settings.php:198
 msgid "Where to meet"
-msgstr "Hvor å møte"
+msgstr "Adresse"
 
 #: inc/pages/settings.php:199
 msgid "This is where you want to enter where you are physically located."

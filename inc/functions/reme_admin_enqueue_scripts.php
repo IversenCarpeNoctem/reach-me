@@ -9,7 +9,7 @@ if ( !defined('ABSPATH') ) {
 function reme_admin_enqueue_scripts() {
 	$currentScreen = get_current_screen();
   if( $currentScreen->id === "toplevel_page_reach-me-settings" ) {
-    wp_enqueue_style( 'reach-me-font-awesome', REME_URL . 'fonts/font-awesome-4.6.3/css/font-awesome.min.css', false, '4.6.3' );
+    wp_enqueue_style( 'reach-me-font-awesome', REME_URL . 'fonts/font-awesome-4.7.0/css/font-awesome.min.css', false, '4.7.0' );
   }
 }
 add_action( 'admin_enqueue_scripts', 'reme_admin_enqueue_scripts' );

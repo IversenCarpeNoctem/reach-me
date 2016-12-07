@@ -2,8 +2,8 @@
 Contributors: leanderiversen
 Tags: contact, info, social, links
 Requires at least: Wordpress 3.5
-Tested up to: 4.6.1
-Stable tag: 1.0.5
+Tested up to: 4.7
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -66,6 +66,9 @@ To display anywhere you want in your template:
 
 
 == Changelog ==
+
+= 1.0.6 =
+* Support for Wordpress 4.7
 
 = 1.0.5 =
 * Updated translations
